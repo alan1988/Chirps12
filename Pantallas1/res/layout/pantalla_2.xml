@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where are you ? and Receive Discounts" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#f0f0f0"
+        android:padding="5dp"
+        android:text="/I AM IN ... "
+        android:textColor="#006633"
+        android:textStyle="italic"
+        android:typeface="monospace" >
+    </TextView>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="AutoCompleteTextView" >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:text="Check In" />
+
+    <ExpandableListView
+        android:id="@+id/expandableListView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.08"
+        android:visibility="invisible"
+        android:enabled="false" >
+
+    </ExpandableListView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="Check Out" />
+
+</LinearLayout>
